@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+/* body{
+	width:100vw;
+	height:100vh;
+	background-color:#765BEF;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+} */
+
+body{
+	background-color:#785cf3;
+}
+
+.search{
+	display:flex;
+	flex-direction:row;
+	justify-content : center;
+	align-items:center;
+	border:none;
+	margin-top:10rem;
+	
+	
+	
+}
+.search>input{
+	padding: 10px 10px;
+	border:none;
+
+}
+.btn{
+	border:none;
+	background-color:white;
+	padding:10px;
+	cursor:pointer;
+}
